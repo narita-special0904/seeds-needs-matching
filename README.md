@@ -198,7 +198,7 @@ AZURE_OPENAI_MODEL_EMBEDDING_LARGE=
 ### 1. Azure AI Search インデックス作成
 
 ```bash
-python 1_create_search_index.py
+uv run 1_create_search_index.py
 ```
 
 このスクリプトは既存インデックスを削除してから作成します。
@@ -216,7 +216,7 @@ Blob Storage の対象コンテナに、以下のような構成で文書を配�
 その後、バッチを実行します。
 
 ```bash
-python 2_register_batch_N.py
+uv run hon 2_register_batch_N.py
 ```
 
 バッチは文書抽出、要約、メタ情報抽出、Embedding、AI Search 登録、Gremlin グラフ構築、関連エッジ作成までを実行します。
@@ -224,7 +224,7 @@ python 2_register_batch_N.py
 ### 3. UI 起動
 
 ```bash
-streamlit run app.py
+uv run streamlit run app.py
 ```
 
 初期状態では簡易ログインとして以下のアカウントが設定されています。
