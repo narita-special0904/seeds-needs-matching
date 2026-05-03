@@ -1,0 +1,27 @@
+# Basic
+numpy
+scikit-learn
+python-dotenv
+
+# OpenAI
+openai
+
+# LangChain
+langchain-text-splitters
+
+# Azure SDK
+azure-storage-blob
+azure-ai-documentintelligence
+azure-search-documents
+
+# Gremlin
+gremlinpython
+
+# UI
+streamlit
+
+# Graph
+pyvis
+
+# PDF
+reportlab
