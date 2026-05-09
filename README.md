@@ -84,6 +84,7 @@ Streamlit UI
 │       └── fonts-japanese-gothic.ttf
 ├── requirements.txt
 ├── pyproject.toml
+├── uv.lock
 └── README.md
 ```
 
@@ -153,6 +154,13 @@ Python 3.12 を使用します。
 uv init ディレクトリ名 --python 3.12
 cd ディレクトリ名
 uv add -r requirements.txt
+source .venv/bin/activate
+
+OR
+
+git clone git@github.com:narita-special0904/seeds-needs-matching.git
+cd seeds-needs-matching
+uv sync
 source .venv/bin/activate
 ```
 
